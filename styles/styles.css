@@ -16,12 +16,13 @@ body {
   float: right;
   display: inline;
   position: relative;
-  top: 15px;
-  right: 20px;
-  padding-left: 45px;
-  margin-top: 10px;
+  top: 2%;
+  right: 5%;
+  padding-left: 6%;
+  padding-right: 3%;
+  margin-top: 20px;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 400;
   font-style: normal;
 }
