@@ -53,21 +53,22 @@ body {
 }
 
 .name-block1 {
-  margin: 0;
+  margin-left: 1%;
   letter-spacing: 5px;
 }
 
 .name-block2 {
   margin: 0;
   color: rgba(50,53,58);
-  font-size: 2.1rem;
+  font-size: 2.2rem;
   letter-spacing: 6px;
 }
 
 .name-block3 {
   color: #008dd5;
   letter-spacing: 2px;
-  margin-left: -4%;
+  margin-top: 5%;
+  margin-left: -2%;
 }
 
 .divider-line::after {
@@ -156,8 +157,8 @@ body {
 #nav-bar .menu_icon:hover div:nth-child(4) {
   display: block;
   position: absolute;
-  top: 20px;
-  right: 25px;
+  top: 2.5%;
+  right: 5%;
 }
 
 #nav-bar .menu_icon .dropdown a:hover {
