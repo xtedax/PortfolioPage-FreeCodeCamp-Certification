@@ -36,32 +36,34 @@ body {
 #welcome-section {
   display: flex;
   flex-direction: row;
-  margin-left: -3%;
+  margin-top: -7%;
 }
 
 #welcome-image {
-  width: 50%;
-  height: 75%;
+  width: 55%;
+  height: 80%;
 }
 
 #name-block {
   display: flex;
   flex-direction: column;
   margin-top: 15%;
-  margin-left: -11%;
+  margin-left: -12%;
   font-family: "Roboto Condensed", sans-serif;
 }
 
 .name-block1 {
-  margin-left: 1%;
+  margin-top: 1%;
+  margin-left: 0.5%;
+  font-size: .9rem;
   letter-spacing: 5px;
 }
 
 .name-block2 {
-  margin: 0;
+  margin-top: -2.5%;
   color: rgba(50,53,58);
   font-size: 2.2rem;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
 }
 
 .name-block3 {
@@ -74,8 +76,9 @@ body {
 .divider-line::after {
   content: " ";
   display: block;
-  margin-top: 2%;
-  width: 100%;
+  margin-top: -1%;
+  margin-left: -8px;
+  width: 105%;
   border-bottom: 2px solid #570920;
 }
 
