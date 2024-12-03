@@ -12,11 +12,25 @@ html {
 }
 
 body {
-  height: 5000px;
+  min-height: 5000px;
+  background-image: url("../images/AI.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main {
+  margin-top: -15%;
+}
+
+#splash-container {
+  height: 650px;
+  background-color: white;
 }
 
 #nav-bar ul li { 
-  margin-top: 9.5%;
+  margin-top: 15%;
   width: 50%;
 }
 
