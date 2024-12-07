@@ -318,7 +318,7 @@ hr {
 
 #my-projects-text {
   display: block;
-  padding: 5% 30%;
+  padding: 5%;
   font-family: "Roboto Condensed", sans-serif;
   font-size: .6rem;
   font-weight: 400;
@@ -326,6 +326,35 @@ hr {
   text-align: center;
   color: #fff;
   background-color: #570920;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.product {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  display: block;
+}
+
+.product h3 {
+  padding: 10px;
+  background: #f8f8f8;
+  border-top: 1px solid #ddd;
+  margin: 0;
+  color: #000;
 }
 
 @keyframes fade {
