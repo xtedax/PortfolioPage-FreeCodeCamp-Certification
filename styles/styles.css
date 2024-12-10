@@ -14,7 +14,7 @@ html {
 
 body {
   height: 100%;
-  min-height: 5000px;
+  min-height: 4250px;
   background-color: black;
 }
 
@@ -107,6 +107,10 @@ a, a:visited {
   row-gap: 8px;
   width: 13%;
   cursor: pointer;
+}
+
+.menu_icon .dropdown a:first-child {
+  visibility: hidden;
 }
 
 #nav-bar .menu_icon div.icon-lines {
@@ -248,7 +252,7 @@ hr {
   display: block;
   width: 100%;
   height: 150px;
-  min-height: 300px;
+  min-height: 250px;
   background: url("../images/AI.png");
   box-shadow: inset 0 0 0 2000px rgb(0, 141, 213, .2);
   background-attachment: fixed;
@@ -434,6 +438,24 @@ hr {
 
 #contact-section ul:last-child {
   padding-bottom: 30px;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+footer p:not(:last-child) {
+  font-size: .8rem;
+}
+
+footer p:first-child {
+  margin-top: 20px;
+}
+
+footer p:last-child {
+  margin-top: 25px;
 }
 
 @keyframes fade {
