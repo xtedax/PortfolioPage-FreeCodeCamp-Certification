@@ -421,7 +421,7 @@ hr {
 #contact-section a li {
   margin-top: 10px;
   margin-right: 50px;
-  margin-left:90px;
+  margin-left: 90px;
   font-size: 1.1rem;
   font-weight: 600;
   font-family: "Roboto Condensed", sans-serif;
@@ -463,6 +463,25 @@ footer p:last-child {
   5% { opacity: 1; animation-timing-function: ease-in-out; }
   95% { opacity: 1; animation-timing-function: ease-in-out; }
   100% { opacity: 0; animation-timing-function: ease-in-out; z-index: 1 }
+}
+
+@media (min-width: 375px) {
+  body {
+    min-height: 4280px;
+  }
+
+  #splash-container hr {
+    margin-top: -38px;
+  }
+
+  #welcome-section {
+    margin-left: 15px;
+  }
+
+  #contact-section a li {
+    margin-left: 115px;
+    font-size: 1.15rem;
+  }
 }
 
 
