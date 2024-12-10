@@ -472,6 +472,7 @@ footer p:last-child {
 
   #splash-container hr {
     margin-top: -38px;
+    border: 20px solid #570920;
   }
 
   #welcome-section {
@@ -480,6 +481,40 @@ footer p:last-child {
 
   #contact-section a li {
     margin-left: 115px;
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 425px) {
+  body {
+    min-height: 4400px;
+  }
+
+  .menu_icon {
+    margin-top: -32%;
+    margin-right: 10%;
+  }
+
+  #nav-bar .menu_icon:hover div:nth-child(4) {
+    top: 5%;
+    right: 5%;
+  }
+
+  #splash-container hr {
+    margin-top: -50px;
+    border: 20px solid #570920;
+  }
+
+  #welcome-section {
+    margin-left: 36px;
+  }
+
+  #background-pic1 {
+    min-height: 280px;
+  }
+
+  #contact-section a li {
+    margin-left: 145px;
     font-size: 1.15rem;
   }
 }
