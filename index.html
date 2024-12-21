@@ -10,8 +10,11 @@
   </head>
   <body>
     <main id="main">
+      <!--- Home Section --->
       <div id="splash-container">
         <header id="header">
+
+            <!--- Navigation --->          
             <nav id="nav-bar">
                 <ul class="nav-bar">
                   <li><a class="fade-in" href="#about-anchor">About Me</a></li>
@@ -31,17 +34,21 @@
               </div>
             </nav>
         </header>
+
+        <!--- Logo and Name --->
         <section>
           <div id="welcome-section">
             <img id="welcome-image" class="fade-in" src="images/my-logo.png">
             <div id="name-block">
-              <p class="name-block1">ennis Amiel</p>
+              <p class="name-block1"><span>D</span>ennis Amiel</p>
               <p class="name-block2">OMINGO</p>
               <div class="divider-line"></div>
               <p class="name-block3">Web Developer</p>
             </div>
           </div>
         </section>
+
+        <!--- Stack Icons --->
         <section class="carousel-container">
           <div class="carousel">
               <img src="images/html.png" alt="HTML logo">
@@ -56,16 +63,16 @@
               <img src="images/django.png" alt="Django logo">
           </div>
         </section>
-        <hr>
       </div>
+
+      <!--- About Section --->
       <div id="about-anchor"></div>
-      <div id="background-pic1"></div>
-      <div id="about-me-text">
-        <h1>About Me</h1>
-      </div>
+      <!--- <div id="background-pic1"></div> --->
       <div id="background-pic2"></div>
-      <hr> 
       <div id="info-container">
+        <div id="about-me-text">
+          <a href="#main" class="arrow-up">&#11014;</a><h1>About Me</h1><a href="#background-pic3" class="arrow-down">&#11015;</a>
+        </div>
         <section id="about-section">
           <p>Hi, Dennis here! A tech enthusiast and creative problem-solver at your service!</p><br> 
           <p>By day, I delve into web and application development, focusing on projects in JavaScript, Python, and artificial intelligence. By night, I work as a Service Desk Level 2 Analyst with over a decade of experience in technical support.</p><br>
@@ -74,10 +81,11 @@
           <p>I'm always eager to learn, grow, and collaborate with others to create impactful projects. Let's bring ideas to life together!</p><br>
         </section> 
       </div>
-      <hr>
-      <div id="background-pic3"></div> 
+      <div id="background-pic3"></div>
+      
+      <!--- My Projects Section --->
       <div id="my-projects-text">
-        <h1>My Projects</h1>
+        <a href="#about-anchor" class="arrow-up2">&#11014;</a><h1>My Projects</h1><a href="#contact-section" class="arrow-down2">&#11015;</a>
         <div class="projects-container">
           <a href="https://codepen.io/damiel/full/yLmdQRN" target="_blank"><div class="product">
             <img src="images/project1.png" alt="Project 1 Avengers Assemble Project">
@@ -99,8 +107,9 @@
         <a href="https://codepen.io/damiel" target="_blank"><div id="show-all-button">Show All &#187;</div></a>
       </div>
       <div id="background-pic4"></div>
-      <hr> 
-      <div id="about-container">
+
+      <!--- Contact Section --->
+      <div id="contact-container">
         <section id="contact-section">
           <h3>Let's Connect!</h3>
           <ul>
@@ -110,15 +119,12 @@
             <a href="https://www.linkedin.com/in/dennis-domingo/" target="_blank"><li class="contact"><img src="images/linkedin-icon.png"><span>LinkedIn</span></li></a>
           </ul>
       </div>
-      <hr>
     </main>
+
     <footer>
       <p>&#169; 2024 Dennis Amiel Domingo</p>
       <p>Web Developer</p>
       <a href="#main"><p>Back to Top &#11014;</p></a>
     </footer>
-    <!--- Commented this out for FreeCodeCamp Certification purposes
-    <script src="scripts/script.js"></script>
-    --->
   </body>
 </html>
