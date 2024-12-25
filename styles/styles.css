@@ -392,11 +392,12 @@ a, a:visited {
 
 #contact-section a li {
   margin-top: 10px;
-  margin-right: 50px;
-  margin-left: 90px;
+  margin-right: 25%;
+  margin-left: 25%;
   font-size: 1.1rem;
   font-weight: 600;
   font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
 }
 
 #contact-section ul a li span {
@@ -455,7 +456,6 @@ footer p:last-child {
   }
 
   #contact-section a li {
-    margin-left: 115px;
     font-size: 1.15rem;
   }
 }
@@ -480,15 +480,176 @@ footer p:last-child {
     margin-left: 36px;
   }
 
-  /*
-  #background-pic1 {
-    min-height: 280px;
-  }
-  */
-
   #contact-section a li {
-    margin-left: 145px;
     font-size: 1.15rem;
+  }
+}
+
+/* Small Mobile Portrait */
+@media (min-width: 678px) {
+  body {
+    min-height: 4700px;
+  }
+
+  #splash-container {
+    height: 855px;
+    background-color: white;
+  }
+
+  .nav-bar li a {
+    visibility: visible;
+  }
+
+  .menu_icon div {
+    visibility: hidden;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .nav-bar li {
+    margin-top: -5%;
+    padding: 3%;
+    text-align: center;
+  }
+
+  #nav-bar ul li { 
+    width: 50%;
+    position: relative;
+    top: 80px;
+  }
+  
+  #nav-bar ul li a {
+    color: #570920;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+    padding: 2%;
+  }
+
+  #name-block span {
+    display: inline;
+  }
+
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+  }
+
+  #welcome-section {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 460px;
+    width: 68%;
+  }
+
+  #welcome-image {
+    width: 15%;
+    height: 15%;
+    position: relative;
+    top: 68px;
+    right: -165px;
+  }
+
+    
+  #name-block {
+    position: relative;
+  }
+
+  .name-block1 {
+    position: relative;
+    top: 30px;
+    right: 30px;
+  }
+
+  .name-block2 {
+    position: relative;
+    left: 215px;
+    letter-spacing: 10px;
+  }
+
+  .name-block3 {
+    position: relative;
+    top: -32px;
+    left: 455px;
+    width: 70%;
+  }
+
+  .divider-line {
+    display: none;
+  }
+
+  #about-me-text, #my-projects-text {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  #my-projects-text {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #about-me-text a, #my-projects-text a {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .arrow-up {
+    position: relative;
+    right: 150%;
+    top: 30px;
+  }
+
+  .arrow-down {
+    position: relative;
+    bottom: 30px;
+    left: 150%;
+  }
+
+  .arrow-up2 {
+    position: relative;
+    right: 50%;
+    top: 50px;
+  }
+
+  .arrow-down2 {
+    position: relative;
+    bottom: 50px;
+    left: 50%;
+  }
+
+  #contact-section ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 7%;
+  }
+
+  #contact-section ul li {
+    margin: 5% 2% 10%;
+    padding: 5%;
+    width: 10%;
+  }
+
+  #contact-section h3 {
+    margin-bottom: 25px;
+  }
+
+  #contact-section ul img {
+    margin-bottom: 25px;
   }
 }
 
@@ -517,7 +678,8 @@ footer p:last-child {
     justify-content: space-around;
     height: 20%;
     width: 70%;
-    margin-left: 14%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   .nav-bar li {
@@ -559,6 +721,7 @@ footer p:last-child {
     position: relative;
     top: 460px;
     left: 245px;
+    width: 60%;
   }
 
   #welcome-image {
@@ -566,7 +729,7 @@ footer p:last-child {
     height: 15%;
     position: relative;
     top: 73px;
-    right: 5px;
+    right: 35px;
   }
 
   .name-block1 {
@@ -577,13 +740,14 @@ footer p:last-child {
 
   .name-block2 {
     position: relative;
-    left: 45px;
+    left: 20px;
+    letter-spacing: 10px;
   }
 
   .name-block3 {
     position: relative;
-    top: -35px;
-    left: 295px;
+    top: -40px;
+    left: 280px;
   }
 
   .divider-line {
