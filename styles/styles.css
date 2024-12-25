@@ -740,13 +740,14 @@ footer p:last-child {
 
   .name-block2 {
     position: relative;
-    left: 20px;
+    top: 5px;
+    left: 15px;
     letter-spacing: 10px;
   }
 
   .name-block3 {
     position: relative;
-    top: -40px;
+    top: -35px;
     left: 280px;
   }
 
