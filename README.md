@@ -15,7 +15,7 @@
 <ol>
 <li>Clone the repository:</li>
 <code>
-git clone https://github.com/xtedax/avengers-crossfade-gallery.git
+git clone https://github.com/xtedax/portfoliopage-freecodecamp-certification.git
 </code><br>
 <li>Open the index.html file in your browser to view the gallery.</li>
 </ol>
