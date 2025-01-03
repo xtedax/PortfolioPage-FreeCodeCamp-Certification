@@ -28,7 +28,7 @@ git clone https://github.com/xtedax/portfoliopage-freecodecamp-certification.git
 </ul>
 
 <h2>Demo</h2>
-<a href="https://xtedax.github.io/PortfolioPage-FreeCodeCamp-Certification/">https://xtedax.github.io/Avengers-ImageGallery-Practice</a>
+<a href="https://xtedax.github.io/PortfolioPage-FreeCodeCamp-Certification/">https://xtedax.github.io/PortfolioPage-FreeCodeCamp-Certification</a>
 <br><br>
 <h2>Credits</h2>
 <ul>
